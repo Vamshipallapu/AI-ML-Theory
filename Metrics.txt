@@ -1,0 +1,39 @@
+Here are some commonly used scoring metrics for different types of machine learning tasks:
+
+Classification Metrics:
+Accuracy: The ratio of correct predictions to the total number of predictions. It's suitable for balanced datasets but can be misleading in imbalanced datasets.
+
+Precision: The ratio of true positive predictions to the total positive predictions. It measures the model's ability to make accurate positive predictions.
+
+Recall (Sensitivity or True Positive Rate): The ratio of true positive predictions to the total actual positives. It measures the model's ability to identify all positive instances.
+
+F1-Score: The harmonic mean of precision and recall. It provides a balance between precision and recall.
+
+ROC AUC: Receiver Operating Characteristic Area Under the Curve. It measures the area under the ROC curve, which plots the true positive rate against the false positive rate.
+
+Log Loss (Logarithmic Loss): A logarithmic loss metric that is often used in probabilistic classifiers. It measures the accuracy of predicted probabilities.
+
+Regression Metrics:
+Mean Absolute Error (MAE): The average of the absolute differences between predicted and actual values. It is less sensitive to outliers.
+
+Mean Squared Error (MSE): The average of the squared differences between predicted and actual values. It gives higher weight to large errors.
+
+Root Mean Squared Error (RMSE): The square root of MSE. It is in the same unit as the target variable.
+
+R-squared (Coefficient of Determination): Measures the proportion of the variance in the dependent variable that is predictable from the independent variables. It ranges from 0 to 1, with higher values indicating a better fit.
+
+Clustering Metrics:
+Silhouette Score: Measures how similar each data point is to its own cluster compared to other clusters. It helps assess the quality of clustering.
+
+Davies-Bouldin Index: Measures the average similarity between each cluster and the cluster that is most similar to it. Lower values indicate better clustering.
+
+Other Metrics:
+Mean Absolute Percentage Error (MAPE): Used for evaluating forecast models. It measures the percentage difference between predicted and actual values.
+
+Cohen's Kappa: Measures the agreement between two raters (e.g., human annotators or different models) when classifying items into multiple categories.
+
+Jaccard Index: Measures the similarity between two sets. It is often used in text mining and information retrieval to measure the similarity of two sets of words.
+
+Dice Coefficient: Similar to the Jaccard Index, it measures the similarity between two sets but gives more weight to the intersection of sets.
+
+Adjusted Rand Index (ARI): Measures the similarity between two data clusterings, accounting for chance. It is used to assess the quality of unsupervised clustering.
